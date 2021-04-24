@@ -10,7 +10,7 @@ public class RecipeManagement {
 		// TODO Auto-generated method stub
 		boolean flag;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter 1 for Admin and enter 2 for general");
+		System.out.println("Enter 1 for Admin and enter 2 for General");
 		int choice = sc.nextInt();
 		Operations ops = new Operations();
 
